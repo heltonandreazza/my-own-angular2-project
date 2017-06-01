@@ -1,7 +1,7 @@
 import { Component } from "@angular/core/src/metadata";
 
 @Component({
-  selector: 'app-component',
+  selector: 'app-root',
   templateUrl: './app.'
 })
 export class AppComponent { }
