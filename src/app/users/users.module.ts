@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core/src/metadata";
+import { NgModule } from "@angular/core";
 import { UsersComponent } from "./users.component";
 import { UsersRoutingModule } from "./users-routing.module";
-import { CommonModule } from "@angular/common/src/common";
+import { CommonModule } from "@angular/common";
 
 @NgModule({
   declarations: [UsersComponent],

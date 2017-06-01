@@ -1,5 +1,5 @@
-import { NgModule } from "@angular/core/src/metadata";
-import { RouterModule } from "@angular/router/src";
+import { NgModule } from "@angular/core";
+import { RouterModule } from "@angular/router";
 import { UsersComponent } from "./users.component";
 
 @NgModule({
