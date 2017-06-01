@@ -1,4 +1,4 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin')
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './src/app/main.ts',
@@ -6,13 +6,14 @@ module.exports = {
         extensions: ['.js', '.ts']
     },
     module: {
-        rules: [{
+        rules: [
+            {
                 test: /\.html$/,
-                loaders: ['html-loader'] //extract html code
+                loaders: ['html-loader']
             },
             {
                 test: /\.css$/,
-                loaders: ['raw-loader'] //simply extract css the way it is, no transforms
+                loaders: ['raw-loader']
             }
         ],
         exprContextCritical: false

@@ -1,7 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  templateUrl: './users.component.html',
-  styleUrls: ['./users/component.css']
+    templateUrl: './users.component.html',
+    styleUrls: ['./users.component.css']
 })
-export class UsersComponent { }
+export class UsersComponent {}
